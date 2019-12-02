@@ -12,8 +12,8 @@ end
 def print_first_directors_movie_titles
 
   count = 0
-  while count < directors_database[0][:movies].length do
-      puts "#{directors_database[0][:movies][count][:title]}"
-      count += 1
+  while count < directors_database[0][:movies].length do #while count is less than the length of our first element
+      puts "#{directors_database[0][:movies][count][:title]}" #we outputs
+      count += 1 #and then we add one to count
     end
 end
